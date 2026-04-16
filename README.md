@@ -1,11 +1,15 @@
+# Calibre-RubyT
+
 ActiveRecord for Calibre's book database!
+
+A fork of calibre-ruby, very useful library last. Because it was last released in 2018 and with source code behind a registration wall that doesn't accept @gmail emails.
 
 # Usage
 
 Install:
 
 ```ruby
-gem install calibre-ruby
+gem install calibre-rubyt
 ```
 
 Open database:

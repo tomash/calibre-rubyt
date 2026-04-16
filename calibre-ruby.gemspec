@@ -3,13 +3,13 @@
 require_relative 'lib/calibre/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = 'calibre-ruby'
+  gem.name          = 'calibre-rubyt'
   gem.version       = Calibre::VERSION
-  gem.authors       = ['fauno']
-  gem.email         = ['fauno@partidopirata.com.ar']
+  gem.authors       = ['fauno', 'Tomasz Stachewicz']
+  gem.email         = ['fauno@partidopirata.com.ar', 't.stachewicz@gmail.com']
   gem.description   = 'This gem provides an ActiveRecord interface to Calibre\'s book database'
   gem.summary       = 'This gem provides an ActiveRecord interface to Calibre\'s book database'
-  gem.homepage      = 'https://0xacab.org/partido-interdimensional-pirata/calibre-ruby'
+  gem.homepage      = 'https://github.com/tomash/calibre-rubyt'
   gem.license       = 'MIT'
 
   gem.files         = Dir['lib/**/*'] + %w[LICENSE README.md calibre-ruby.gemspec Gemfile]
