@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'https://github.com/tomash/calibre-rubyt'
   gem.license       = 'MIT'
 
-  gem.files         = Dir['lib/**/*'] + %w[LICENSE README.md calibre-ruby.gemspec Gemfile]
+  gem.files         = Dir['lib/**/*'] + %w[LICENSE README.md calibre-rubyt.gemspec Gemfile]
   gem.executables   = []
   gem.require_paths = ['lib']
 
